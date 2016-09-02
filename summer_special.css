@@ -10,16 +10,19 @@
 .page {
   width: 100%;
   padding-top: 154px;
-  padding-bottom: 154px;
   font-size: 13px;
-}
-.page-gray {
-  background-color: #DBDCDC;
   display: block;
   height: 2200px;
 }
+.page-gray {
+  background-color: #DBDCDC;
+}
 
 /* menu */
+.page-menu {
+  text-shadow: 2px -3px 20px rgba(0,0,0,0.2);
+}
+
 .page-menu .page-menu-num {
   color: #C30D23;
   font-weight: bold;
@@ -92,7 +95,7 @@
 .info-block-content a {
   color: #E50012;
   border: 1px solid #E50012;
-  font-size: 13px;
+  font-size: 11px;
   padding: 2px;
   border-radius: 2px;
 }
@@ -103,11 +106,15 @@
   font-weight: lighter;
   background-color: #E50012;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: .61px;
 }
 
 .info-block-img img {
   width: 245px;
+}
+
+.info-block p {
+  margin-bottom: 15px;
 }
 
 /* trans list */
@@ -206,6 +213,11 @@
   background-color: white;
   padding: 1vw;
   color: #E50012;
+  margin-bottom: 65px;
+}
+
+.search-term-gray {
+  background-color: #DBDCDC;
 }
 
 .search-term .search-term-title:before,
@@ -223,6 +235,10 @@
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+.search-term-list li {
+  margin-bottom: 5px;
 }
 
 .offset-65 {
