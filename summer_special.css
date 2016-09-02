@@ -74,6 +74,7 @@
 
 .info-block-content li {
   list-style-type: none;
+  margin-bottom: 5px;
 }
 
 .info-block-content ul.second-level {
@@ -115,6 +116,11 @@
 
 .info-block p {
   margin-bottom: 15px;
+}
+
+.info-block-video > iframe {
+  width: 100%;
+  height: 410px;
 }
 
 /* trans list */
