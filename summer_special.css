@@ -263,6 +263,8 @@ ul.second-level li {
   font-size: 11px;
   padding: 2px;
   border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .search-term a:hover,
@@ -475,4 +477,24 @@ ul.timeline-list > li::before {
   top: 4px;
   background-color: white;
   z-index: 1;
+}
+
+/* icon list */
+.icon-list > li {
+  clear: both;
+  height: 72px;
+  margin-bottom: 10px;
+}
+
+.icon-list .list-icon {
+  float: left;
+}
+
+.icon-list .list-content {
+  padding-left: 92px;
+  padding-top: 15px;
+}
+
+.list-content .icon-title {
+  font-weight: bold;
 }
