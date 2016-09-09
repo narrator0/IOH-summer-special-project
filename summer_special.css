@@ -13,9 +13,21 @@
   font-size: 13px;
   display: block;
   height: 2200px;
+  position: relative;
+
+  font-family: Helvetica, Arial, sans-serif;
 }
 .page-gray {
   background-color: #DBDCDC;
+}
+
+.page-logo {
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  font-size: 11em;
+  top: -50px;
+  right: 140px;
 }
 
 /* menu */
@@ -54,6 +66,7 @@
 /* info block */
 .info-block {
   margin-bottom: 65px;
+  clear: both;
 }
 
 .info-block .info-block-title {
@@ -497,4 +510,197 @@ ul.timeline-list > li::before {
 
 .list-content .icon-title {
   font-weight: bold;
+}
+
+/* location intro */
+.location-intro {
+  margin-bottom: 65px;
+}
+
+.intro-img {
+  width: 50%;
+  float: left;
+}
+
+.intro-img img {
+  width: 100%;
+}
+
+.intro-map {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.intro-map > img {
+  width: 100%;
+  position: absolute;
+}
+
+.intro-thumbs {
+  clear: both;
+  padding-top: 60px;
+}
+
+.intro-thumbs img {
+  width: 100%;
+}
+
+.intro-thumbs .row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.intro-thumbs .row .thumb {
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+
+.thumb .thumb-top {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0;
+  cursor: pointer;
+  background-clip: content-box;
+
+  transition: .3s opacity linear;
+}
+
+.thumb .thumb-top:hover {
+  opacity: 1;
+}
+
+.thumb .thumb-top-active {
+  opacity: 1;
+}
+
+.intro-img-item {
+  position: relative;
+  display: none;
+}
+
+.intro-img-item-active {
+  display: inline-block;
+}
+
+.intro-map-icons .intro-map-icon {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: #717071;
+  font-weight: bold;
+}
+
+.intro-map-icons .intro-map-icon:hover {
+  color: #E50012;
+}
+
+.intro-map-icons .intro-map-icon-active {
+  color: #E50012;
+}
+
+.marker-text {
+  line-height: 3px;
+}
+
+#seattle-marker {
+  top: 13px;
+  left: 45px;
+}
+
+#new-york-marker {
+  right: 38px;
+  top: 54px;
+}
+
+#los-angeles-marker {
+  left: 20px;
+  top: 106px;
+}
+
+#boston-marker {
+  right: 32px;
+  top: 29px;
+}
+
+#chicago-marker {
+  right: 117px;
+  top: 57px;
+}
+
+#san-francisco-marker {
+  left: 11px;
+  top: 74px;
+}
+
+.intro-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 20px;
+  text-align: right;
+}
+
+.intro-img-weather {
+  margin-top: 10px;
+}
+
+.intro-img-top h1 {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.intro-img-top hr {
+  margin: 0;
+}
+
+.intro-img-weather {
+  font-weight: lighter;
+}
+
+.intro-img-weather > .row {
+  margin-bottom: 10px;
+}
+
+.intro-img-top p {
+  font-size: 12px;
+}
+
+.weather-left {
+  line-height: 13px;
+  padding-right: 7px;
+  width: 30%;
+}
+
+.weather-left > img {
+  height: 11px;
+  width: 11px;
+}
+
+.weather-right {
+  font-size: 30px;
+  height: 26px;
+  line-height: 26px;
+  float: left;
 }
