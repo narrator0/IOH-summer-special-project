@@ -59,6 +59,16 @@
   font-weight: bold;
 }
 
+.page-menu ul.page-menu-subtitle > li > a {
+  color: #C30D23;
+  text-decoration: none;
+}
+
+.page-menu ul.page-menu-subtitle > li > a:hover {
+  color: #C30D23;
+  text-decoration: none;
+}
+
 /* page content */
 .page-content {
 }
