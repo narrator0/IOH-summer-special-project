@@ -12,7 +12,7 @@
   padding-top: 154px;
   font-size: 13px;
   display: block;
-  height: 2200px;
+  overflow: auto;
   position: relative;
 
   font-family: Helvetica, Arial, sans-serif;
